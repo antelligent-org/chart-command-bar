@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en" data-mode="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chart command bar · Fernfly</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Grand+Hotel&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ff-mark" viewBox="0 0 64 64" fill="none">
+    <path d="M 32 29.6 L 32.35 29.41 L 32.76 29.27 L 33.21 29.19 L 33.68 29.19 L 34.18 29.27 L 34.69 29.44 L 35.19 29.7 L 35.66 30.05 L 36.1 30.48 L 36.48 31 L 36.79 31.59 L 37.02 32.25 L 37.16 32.97 L 37.19 33.72 L 37.1 34.5 L 36.9 35.29 L 36.58 36.06 L 36.13 36.81 L 35.57 37.5 L 34.89 38.13 L 34.1 38.67 L 33.22 39.11 L 32.26 39.43 L 31.23 39.61 L 30.16 39.65 L 29.07 39.54 L 27.97 39.27 L 26.9 38.84 L 25.87 38.24 L 24.92 37.49 L 24.05 36.6 L 23.3 35.57 L 22.69 34.42 L 22.23 33.17 L 21.94 31.84 L 21.84 30.46 L 21.93 29.04 L 22.22 27.62 L 22.71 26.23 L 23.41 24.89 L 24.29 23.64 L 25.36 22.5 L 26.61 21.49 L 28 20.66 L 29.52 20.01 L 31.14 19.56 L 32.84 19.34 L 34.58 19.36 L 36.33 19.61 L 38.06 20.11 L 39.73 20.86 L 41.31 21.84 L 42.76 23.04 L 44.05 24.46 L 45.16 26.06 L 46.05 27.82 L 46.7 29.72 L 47.09 31.72 L 47.21 33.78 L 47.04 35.86 L 46.59 37.94 L 45.85 39.96 L 44.82 41.88 L 43.53 43.67 L 41.98 45.29 L 40.21 46.71 L 38.23 47.88 L 36.09 48.79 L 33.81 49.41 L 31.44 49.71 L 29.03 49.69 L 26.61 49.34 L 24.23 48.65 L 21.94 47.64 L 19.78 46.31 L 17.8 44.68 L 16.04 42.77 L 14.54 40.62 L 13.33 38.26 L 12.45 35.73 L 11.9 33.07 L 11.72 30.34 L 11.92 27.58 L 12.49 24.84 L 13.44 22.17 L 14.75 19.64 L 16.42 17.27 L 18.41 15.14 L 20.69 13.28 L 23.22 11.72 L 25.98 10.51 L 28.9 9.68 L 31.93 9.25 L 35.02 9.23 L 38.12 9.63 L 41.16 10.46 L 44.09 11.7 L 46.85 13.34 L 49.39 15.36 L 51.65 17.73" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 51.65 17.73 L 52.19 18.47 L 52.7 19.22 L 53.2 19.99 L 53.68 20.77 L 54.14 21.57 L 54.58 22.37 L 54.99 23.19 L 55.39 24.02 L 55.76 24.85 L 56.11 25.7 L 56.44 26.56 L 56.75 27.42" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g stroke="#f59e0b" stroke-width="2" stroke-linecap="round">
+      <path d="M 53.2 19.99 Q 52.27 22.53 50.48 23.67"/><path d="M 53.2 19.99 Q 55.89 20.32 57.72 19.24"/>
+      <path d="M 54.58 22.37 Q 53.73 24.23 52.31 24.98"/><path d="M 54.58 22.37 Q 56.58 22.78 58.02 22.07"/>
+      <path d="M 55.76 24.85 Q 55.09 26.06 54.1 26.48"/><path d="M 55.76 24.85 Q 57.08 25.23 58.09 24.83"/>
+    </g>
+    <circle cx="32" cy="32" r="1.7" fill="#fcd34d"/>
+  </symbol>
+</svg>
+
+<header class="topbar">
+  <a class="lockup" href="https://fernfly.com" target="_blank" rel="noopener">
+    <svg class="mark" viewBox="0 0 64 64"><use href="#ff-mark"/></svg>
+    <span class="wordmark">Fernfly</span>
+  </a>
+  <span class="crumb">Revenue dashboard</span>
+  <div class="topbar-actions">
+    <button type="button" id="btnSettings" class="ghost">Settings</button>
+    <button type="button" id="btnEndpoint" class="ghost">Model</button>
+    <button type="button" id="btnMode" class="ghost" title="Light / dark">◐</button>
+  </div>
+</header>
+
+<main class="layout">
+
+  <!-- ── The chart ───────────────────────────────────────────────────────── -->
+  <section class="panel chart-panel">
+    <div class="chart-wrap"><canvas id="chart"></canvas></div>
+
+    <!-- The command bar. One input, in front of twelve functions. -->
+    <form id="askForm" class="ask" autocomplete="off">
+      <input id="ask" type="text" placeholder="Ask for a change: “the small numbers are invisible”" spellcheck="false">
+      <button type="submit" id="askBtn">Send</button>
+    </form>
+    <div class="suggestions" id="suggestions"></div>
+  </section>
+
+  <!-- ── What came back ──────────────────────────────────────────────────── -->
+  <aside class="panel log-panel">
+    <div class="panel-head">
+      <b>Tool calls</b>
+      <span class="hint">what the model returned</span>
+      <button type="button" id="btnClear" class="ghost sm">clear</button>
+    </div>
+    <ol id="log" class="log"></ol>
+    <div class="manual">
+      <label for="manual">Manual mode <i>no model, no network</i></label>
+      <form id="manualForm" autocomplete="off">
+        <input id="manual" type="text" placeholder='set_chart_type({"type": "bar"})' spellcheck="false">
+        <button type="submit">Run</button>
+      </form>
+    </div>
+  </aside>
+</main>
+
+<!-- ── The settings panel: the "before" in the demo ──────────────────────────
+     Deliberately the sort of thing every BI tool ships. Everything the command
+     bar does is in here somewhere, two or three clicks deep. -->
+<div id="settings" class="drawer" hidden>
+  <div class="drawer-panel">
+    <div class="drawer-head">
+      <b>Chart settings</b>
+      <button type="button" data-close="settings" class="ghost sm">close</button>
+    </div>
+
+    <details open>
+      <summary>General</summary>
+      <label>Chart type
+        <select id="cfgType">
+          <option value="bar">Bar</option><option value="line">Line</option>
+          <option value="pie">Pie</option><option value="doughnut">Doughnut</option>
+          <option value="radar">Radar</option>
+        </select>
+      </label>
+      <label>Title <input id="cfgTitle" type="text"></label>
+      <label>Legend position
+        <select id="cfgLegend">
+          <option value="top">Top</option><option value="bottom">Bottom</option>
+          <option value="left">Left</option><option value="right">Right</option>
+          <option value="hidden">Hidden</option>
+        </select>
+      </label>
+      <label class="row"><input id="cfgStacked" type="checkbox"> Stack series</label>
+    </details>
+
+    <details>
+      <summary>Axes</summary>
+      <label>Y scale
+        <select id="cfgYScale">
+          <option value="linear">Linear</option><option value="logarithmic">Logarithmic</option>
+        </select>
+      </label>
+      <label>Y minimum <input id="cfgYMin" type="number" placeholder="auto"></label>
+      <label>Y maximum <input id="cfgYMax" type="number" placeholder="auto"></label>
+      <label class="row"><input id="cfgGridY" type="checkbox"> Horizontal gridlines</label>
+      <label class="row"><input id="cfgGridX" type="checkbox"> Vertical gridlines</label>
+    </details>
+
+    <details>
+      <summary>Data</summary>
+      <label>Sort
+        <select id="cfgSort">
+          <option value="original">Calendar order</option>
+          <option value="desc">Value, high to low</option>
+          <option value="asc">Value, low to high</option>
+        </select>
+      </label>
+      <label>From month <input id="cfgFrom" type="number" min="1" max="12"></label>
+      <label>To month <input id="cfgTo" type="number" min="1" max="12"></label>
+    </details>
+
+    <details>
+      <summary>Series</summary>
+      <div id="cfgSeries" class="series-rows"></div>
+    </details>
+
+    <button type="button" id="cfgReset" class="ghost wide">Reset everything</button>
+  </div>
+</div>
+
+<!-- ── Where the model lives ─────────────────────────────────────────────── -->
+<div id="endpoint" class="drawer" hidden>
+  <div class="drawer-panel">
+    <div class="drawer-head">
+      <b>Model endpoint</b>
+      <button type="button" data-close="endpoint" class="ghost sm">close</button>
+    </div>
+    <p class="note">
+      Paste a deployed Fernfly project's inference URL. Use a project with
+      keyless public inference and this page's origin on its allow-list, the way
+      the embed widget works. Never put an API key in front-end code.
+    </p>
+    <label>Endpoint
+      <input id="endpointUrl" type="text" spellcheck="false"
+             placeholder="https://fernfly.com/api/p/YOUR_PROJECT_ID/infer">
+    </label>
+    <p class="note mono" id="endpointState"></p>
+    <button type="button" id="endpointSave" class="wide">Save</button>
+  </div>
+</div>
+
+<div id="banner" class="banner" hidden></div>
+
+<script src="vendor/chart.umd.js" onerror="window.__ccbVendorFailed = true"></script>
+<script>
+  // Vendored copy first so the demo works with the wifi off; the CDN is only a
+  // convenience for a fresh clone that hasn't run `npm run vendor` yet.
+  if (window.__ccbVendorFailed || typeof Chart === 'undefined') {
+    document.write('<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.js" onerror="window.__ccbCdnFailed = true"><\/script>');
+  }
+</script>
+<script src="js/data.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/orchestrator.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

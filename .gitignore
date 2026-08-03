@@ -1,0 +1,3 @@
+# Fetched by `npm run vendor`. Not committed: it's a third-party bundle, and the
+# script re-fetches it in seconds. See README.
+vendor/chart.umd.js

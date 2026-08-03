@@ -1,0 +1,1424 @@
+{"input_text":"show this as bars","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"make it a bar chart","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"bar chart please","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"switch to bars","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"columns instead","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"make it a line chart","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"draw it as lines","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"line graph","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"show the trend as a line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"pie chart please","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"show me a pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"as a pie chart","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"doughnut chart","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"make it a donut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"ring chart","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"switch to a radar plot","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"radar chart","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"spider chart please","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"call it Q4 revenue","output_json":[{"name":"set_title","arguments":{"text":"Q4 revenue"}}],"approved":1}
+{"input_text":"title this Revenue by product line","output_json":[{"name":"set_title","arguments":{"text":"Revenue by product line"}}],"approved":1}
+{"input_text":"change the heading to 2026 so far","output_json":[{"name":"set_title","arguments":{"text":"2026 so far"}}],"approved":1}
+{"input_text":"name the chart Monthly recurring revenue","output_json":[{"name":"set_title","arguments":{"text":"Monthly recurring revenue"}}],"approved":1}
+{"input_text":"set the title to Enterprise growth","output_json":[{"name":"set_title","arguments":{"text":"Enterprise growth"}}],"approved":1}
+{"input_text":"label it board deck","output_json":[{"name":"set_title","arguments":{"text":"Board deck"}}],"approved":1}
+{"input_text":"use a log scale","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"the small numbers are invisible","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"put the vertical axis on a log scale","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"logarithmic on the y axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"squash the y axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"I can't see enterprise at all","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"the little series is flat against the bottom","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"log scale please","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"back to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"normal scale again","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"take the log scale off","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"linear y axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"start the y axis at zero","output_json":[{"name":"set_axis_range","arguments":{"axis":"y","min":0}}],"approved":1}
+{"input_text":"cap the vertical axis at 100000","output_json":[{"name":"set_axis_range","arguments":{"axis":"y","max":100000}}],"approved":1}
+{"input_text":"zoom in between 0 and 50k","output_json":[{"name":"set_axis_range","arguments":{"axis":"y","min":0,"max":50000}}],"approved":1}
+{"input_text":"y axis from 1000 to 20000","output_json":[{"name":"set_axis_range","arguments":{"axis":"y","min":1000,"max":20000}}],"approved":1}
+{"input_text":"don't go above 60000","output_json":[{"name":"set_axis_range","arguments":{"axis":"y","max":60000}}],"approved":1}
+{"input_text":"let the axis pick its own range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"make enterprise green","output_json":[{"name":"set_series_colour","arguments":{"series":"Enterprise","colour":"emerald"}}],"approved":1}
+{"input_text":"colour teams purple","output_json":[{"name":"set_series_colour","arguments":{"series":"Teams","colour":"violet"}}],"approved":1}
+{"input_text":"self-serve should be red","output_json":[{"name":"set_series_colour","arguments":{"series":"Self-serve","colour":"red"}}],"approved":1}
+{"input_text":"turn enterprise gold","output_json":[{"name":"set_series_colour","arguments":{"series":"Enterprise","colour":"gold"}}],"approved":1}
+{"input_text":"can teams be grey","output_json":[{"name":"set_series_colour","arguments":{"series":"Teams","colour":"slate"}}],"approved":1}
+{"input_text":"paint self serve emerald","output_json":[{"name":"set_series_colour","arguments":{"series":"Self-serve","colour":"emerald"}}],"approved":1}
+{"input_text":"enterprise in violet please","output_json":[{"name":"set_series_colour","arguments":{"series":"Enterprise","colour":"violet"}}],"approved":1}
+{"input_text":"hide enterprise","output_json":[{"name":"toggle_series","arguments":{"series":"Enterprise","visible":false}}],"approved":1}
+{"input_text":"drop the teams line","output_json":[{"name":"toggle_series","arguments":{"series":"Teams","visible":false}}],"approved":1}
+{"input_text":"I don't need self-serve","output_json":[{"name":"toggle_series","arguments":{"series":"Self-serve","visible":false}}],"approved":1}
+{"input_text":"bring self-serve back","output_json":[{"name":"toggle_series","arguments":{"series":"Self-serve","visible":true}}],"approved":1}
+{"input_text":"show enterprise again","output_json":[{"name":"toggle_series","arguments":{"series":"Enterprise","visible":true}}],"approved":1}
+{"input_text":"put teams back on","output_json":[{"name":"toggle_series","arguments":{"series":"Teams","visible":true}}],"approved":1}
+{"input_text":"drop the legend, it's in the way","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"hide the legend","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"put the legend on the right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"legend at the bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"move the key to the left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend back on top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"stack them","output_json":[{"name":"set_stacked","arguments":{"enabled":true}}],"approved":1}
+{"input_text":"show me the combined total","output_json":[{"name":"set_stacked","arguments":{"enabled":true}}],"approved":1}
+{"input_text":"stack the bars","output_json":[{"name":"set_stacked","arguments":{"enabled":true}}],"approved":1}
+{"input_text":"pile them on top of each other","output_json":[{"name":"set_stacked","arguments":{"enabled":true}}],"approved":1}
+{"input_text":"unstack these","output_json":[{"name":"set_stacked","arguments":{"enabled":false}}],"approved":1}
+{"input_text":"side by side again","output_json":[{"name":"set_stacked","arguments":{"enabled":false}}],"approved":1}
+{"input_text":"biggest first","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"sort by value, highest at the front","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"order them by size descending","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"smallest first","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"sort ascending","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"put them back in date order","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"chronological again","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"just the last quarter","output_json":[{"name":"filter_months","arguments":{"from":10,"to":12}}],"approved":1}
+{"input_text":"show me Q4","output_json":[{"name":"filter_months","arguments":{"from":10,"to":12}}],"approved":1}
+{"input_text":"show me the first half","output_json":[{"name":"filter_months","arguments":{"from":1,"to":6}}],"approved":1}
+{"input_text":"H1 only","output_json":[{"name":"filter_months","arguments":{"from":1,"to":6}}],"approved":1}
+{"input_text":"only March to June","output_json":[{"name":"filter_months","arguments":{"from":3,"to":6}}],"approved":1}
+{"input_text":"second half of the year","output_json":[{"name":"filter_months","arguments":{"from":7,"to":12}}],"approved":1}
+{"input_text":"first quarter please","output_json":[{"name":"filter_months","arguments":{"from":1,"to":3}}],"approved":1}
+{"input_text":"all twelve months","output_json":[{"name":"filter_months","arguments":{"from":1,"to":12}}],"approved":1}
+{"input_text":"hide the gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"lose the grid","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"no horizontal lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"turn the horizontal lines back on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"gridlines on please","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"drop the vertical gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"start over","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"undo everything","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"back to normal","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset the chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"clear all that and start again","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"defaults please","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"sort original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"sort asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"sort desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"order desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"order original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"order asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"sort data desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"sort data original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"sort data asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"change sort to original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"change sort to desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"change sort to asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"set sort to original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"set sort to desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"set sort to asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"make it asc sort","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"make it desc sort","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"make it original sort","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"original sort","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"asc sort","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"desc sort","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"original order","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"desc order","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"asc order","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"reorder asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"reorder original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"reorder desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"sort by original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"sort by desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"sort by asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"arrange desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"arrange asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"arrange original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"desc data","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"original data","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"asc data","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"put in original order","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"put in asc order","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"put in desc order","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"display asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"display desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"display original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"show asc data","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"show original data","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"show desc data","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"sort everything desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"sort everything original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"sort everything asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"sort table desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"sort table original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"sort table asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"sort column asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"sort column original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"sort column desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"sort values asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"sort values original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"sort values desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"sort from original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"sort from desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"sort from asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"original by default","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"desc by default","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"asc by default","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"default to original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"default to desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"default to asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"set default asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"set default desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"set default original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"apply desc sort","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"apply asc sort","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"apply original sort","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"do original sort","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"do asc sort","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"do desc sort","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"asc the data","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"desc the data","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"original the data","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"original the table","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"asc the table","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"desc the table","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"desc results","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"original results","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"asc results","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"sort results asc","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"sort results original","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"sort results desc","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"original sort please","output_json":[{"name":"sort_data","arguments":{"order":"original"}}],"approved":1}
+{"input_text":"asc sort please","output_json":[{"name":"sort_data","arguments":{"order":"asc"}}],"approved":1}
+{"input_text":"desc sort please","output_json":[{"name":"sort_data","arguments":{"order":"desc"}}],"approved":1}
+{"input_text":"filter from july to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"july"}}],"approved":1}
+{"input_text":"filter from january to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"january"}}],"approved":1}
+{"input_text":"filter from september to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"september"}}],"approved":1}
+{"input_text":"filter from july to december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"july"}}],"approved":1}
+{"input_text":"filter from september to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"september"}}],"approved":1}
+{"input_text":"filter from february to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"february"}}],"approved":1}
+{"input_text":"filter from november to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"november"}}],"approved":1}
+{"input_text":"show months from november to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"november"}}],"approved":1}
+{"input_text":"show months from march to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"march"}}],"approved":1}
+{"input_text":"show months from january to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"january"}}],"approved":1}
+{"input_text":"show months from november to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"november"}}],"approved":1}
+{"input_text":"show months from may to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"may"}}],"approved":1}
+{"input_text":"show months from july to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"july"}}],"approved":1}
+{"input_text":"show months from november to december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"november"}}],"approved":1}
+{"input_text":"display january through november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"january"}}],"approved":1}
+{"input_text":"display november through june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"november"}}],"approved":1}
+{"input_text":"display january through august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"january"}}],"approved":1}
+{"input_text":"display july through april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"july"}}],"approved":1}
+{"input_text":"display january through june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"january"}}],"approved":1}
+{"input_text":"display may through october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"may"}}],"approved":1}
+{"input_text":"display january through february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"january"}}],"approved":1}
+{"input_text":"filter february to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"february"}}],"approved":1}
+{"input_text":"filter february to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"february"}}],"approved":1}
+{"input_text":"filter july to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"july"}}],"approved":1}
+{"input_text":"filter may to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"may"}}],"approved":1}
+{"input_text":"filter january to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"january"}}],"approved":1}
+{"input_text":"filter march to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"march"}}],"approved":1}
+{"input_text":"filter february to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"february"}}],"approved":1}
+{"input_text":"from september to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"september"}}],"approved":1}
+{"input_text":"from march to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"march"}}],"approved":1}
+{"input_text":"from january to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"january"}}],"approved":1}
+{"input_text":"from january to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"january"}}],"approved":1}
+{"input_text":"from may to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"may"}}],"approved":1}
+{"input_text":"from january to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"january"}}],"approved":1}
+{"input_text":"from march to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"march"}}],"approved":1}
+{"input_text":"months september to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"september"}}],"approved":1}
+{"input_text":"months july to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"july"}}],"approved":1}
+{"input_text":"months november to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"november"}}],"approved":1}
+{"input_text":"months february to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"february"}}],"approved":1}
+{"input_text":"months july to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"july"}}],"approved":1}
+{"input_text":"months november to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"november"}}],"approved":1}
+{"input_text":"months march to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"march"}}],"approved":1}
+{"input_text":"show data from february to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"february"}}],"approved":1}
+{"input_text":"show data from march to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"march"}}],"approved":1}
+{"input_text":"show data from february to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"february"}}],"approved":1}
+{"input_text":"show data from september to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"september"}}],"approved":1}
+{"input_text":"show data from may to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"may"}}],"approved":1}
+{"input_text":"show data from november to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"november"}}],"approved":1}
+{"input_text":"show data from may to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"may"}}],"approved":1}
+{"input_text":"limit to may through october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"may"}}],"approved":1}
+{"input_text":"limit to july through august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"july"}}],"approved":1}
+{"input_text":"limit to july through february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"july"}}],"approved":1}
+{"input_text":"limit to july through december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"july"}}],"approved":1}
+{"input_text":"limit to november through june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"november"}}],"approved":1}
+{"input_text":"limit to september through november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"september"}}],"approved":1}
+{"input_text":"limit to september through april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"september"}}],"approved":1}
+{"input_text":"set range november to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"november"}}],"approved":1}
+{"input_text":"set range may to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"may"}}],"approved":1}
+{"input_text":"set range july to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"july"}}],"approved":1}
+{"input_text":"set range july to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"july"}}],"approved":1}
+{"input_text":"set range february to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"february"}}],"approved":1}
+{"input_text":"set range july to december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"july"}}],"approved":1}
+{"input_text":"set range march to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"march"}}],"approved":1}
+{"input_text":"select may to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"may"}}],"approved":1}
+{"input_text":"select february to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"february"}}],"approved":1}
+{"input_text":"select july to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"july"}}],"approved":1}
+{"input_text":"select november to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"november"}}],"approved":1}
+{"input_text":"select may to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"may"}}],"approved":1}
+{"input_text":"select february to december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"february"}}],"approved":1}
+{"input_text":"select january to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"january"}}],"approved":1}
+{"input_text":"date range september to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"september"}}],"approved":1}
+{"input_text":"date range march to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"march"}}],"approved":1}
+{"input_text":"date range february to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"february"}}],"approved":1}
+{"input_text":"date range february to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"february"}}],"approved":1}
+{"input_text":"date range november to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"november"}}],"approved":1}
+{"input_text":"date range september to december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"september"}}],"approved":1}
+{"input_text":"date range march to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"march"}}],"approved":1}
+{"input_text":"filter between january and november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"january"}}],"approved":1}
+{"input_text":"filter between september and october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"september"}}],"approved":1}
+{"input_text":"filter between january and august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"january"}}],"approved":1}
+{"input_text":"filter between march and february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"march"}}],"approved":1}
+{"input_text":"filter between january and february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"january"}}],"approved":1}
+{"input_text":"filter between may and august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"may"}}],"approved":1}
+{"input_text":"filter between march and october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"march"}}],"approved":1}
+{"input_text":"between september and february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"september"}}],"approved":1}
+{"input_text":"between march and december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"march"}}],"approved":1}
+{"input_text":"between july and december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"july"}}],"approved":1}
+{"input_text":"between may and february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"may"}}],"approved":1}
+{"input_text":"between january and october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"january"}}],"approved":1}
+{"input_text":"between february and june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"february"}}],"approved":1}
+{"input_text":"between july and april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"july"}}],"approved":1}
+{"input_text":"adjust months january to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"january"}}],"approved":1}
+{"input_text":"adjust months may to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"may"}}],"approved":1}
+{"input_text":"adjust months september to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"september"}}],"approved":1}
+{"input_text":"adjust months march to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"march"}}],"approved":1}
+{"input_text":"adjust months may to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"may"}}],"approved":1}
+{"input_text":"adjust months july to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"july"}}],"approved":1}
+{"input_text":"adjust months march to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"march"}}],"approved":1}
+{"input_text":"restrict to november and june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"november"}}],"approved":1}
+{"input_text":"restrict to march and august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"march"}}],"approved":1}
+{"input_text":"restrict to september and february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"september"}}],"approved":1}
+{"input_text":"restrict to july and november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"july"}}],"approved":1}
+{"input_text":"restrict to march and october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"march"}}],"approved":1}
+{"input_text":"restrict to february and october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"february"}}],"approved":1}
+{"input_text":"restrict to november and february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"november"}}],"approved":1}
+{"input_text":"only may to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"may"}}],"approved":1}
+{"input_text":"only january to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"january"}}],"approved":1}
+{"input_text":"only may to december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"may"}}],"approved":1}
+{"input_text":"only january to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"january"}}],"approved":1}
+{"input_text":"only march to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"march"}}],"approved":1}
+{"input_text":"only november to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"november"}}],"approved":1}
+{"input_text":"only november to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"november"}}],"approved":1}
+{"input_text":"get months from july till june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"july"}}],"approved":1}
+{"input_text":"get months from may till december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"may"}}],"approved":1}
+{"input_text":"get months from january till april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"january"}}],"approved":1}
+{"input_text":"get months from july till october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"july"}}],"approved":1}
+{"input_text":"get months from november till november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"november"}}],"approved":1}
+{"input_text":"get months from july till february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"july"}}],"approved":1}
+{"input_text":"get months from january till december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"january"}}],"approved":1}
+{"input_text":"march until june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"march"}}],"approved":1}
+{"input_text":"january until december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"january"}}],"approved":1}
+{"input_text":"september until october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"september"}}],"approved":1}
+{"input_text":"may until august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"may"}}],"approved":1}
+{"input_text":"september until august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"september"}}],"approved":1}
+{"input_text":"july until october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"july"}}],"approved":1}
+{"input_text":"november until october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"november"}}],"approved":1}
+{"input_text":"show me november to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"november"}}],"approved":1}
+{"input_text":"show me november to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"november"}}],"approved":1}
+{"input_text":"show me november to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"november"}}],"approved":1}
+{"input_text":"show me february to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"february"}}],"approved":1}
+{"input_text":"show me may to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"may"}}],"approved":1}
+{"input_text":"show me july to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"july"}}],"approved":1}
+{"input_text":"show me march to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"march"}}],"approved":1}
+{"input_text":"view september through june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"september"}}],"approved":1}
+{"input_text":"view november through november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"november"}}],"approved":1}
+{"input_text":"view november through april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"november"}}],"approved":1}
+{"input_text":"view february through october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"february"}}],"approved":1}
+{"input_text":"view september through october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"september"}}],"approved":1}
+{"input_text":"view february through june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"february"}}],"approved":1}
+{"input_text":"view may through april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"may"}}],"approved":1}
+{"input_text":"filter for february to december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"february"}}],"approved":1}
+{"input_text":"filter for november to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"november"}}],"approved":1}
+{"input_text":"filter for november to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"november"}}],"approved":1}
+{"input_text":"filter for january to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"january"}}],"approved":1}
+{"input_text":"filter for may to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"may"}}],"approved":1}
+{"input_text":"filter for september to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"september"}}],"approved":1}
+{"input_text":"filter for march to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"march"}}],"approved":1}
+{"input_text":"from july till october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"july"}}],"approved":1}
+{"input_text":"from march till december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"march"}}],"approved":1}
+{"input_text":"from september till october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"september"}}],"approved":1}
+{"input_text":"from july till august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"july"}}],"approved":1}
+{"input_text":"from july till april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"july"}}],"approved":1}
+{"input_text":"from november till november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"november"}}],"approved":1}
+{"input_text":"from november till august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"november"}}],"approved":1}
+{"input_text":"range from september to december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"september"}}],"approved":1}
+{"input_text":"range from may to december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"may"}}],"approved":1}
+{"input_text":"range from february to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"february"}}],"approved":1}
+{"input_text":"range from march to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"march"}}],"approved":1}
+{"input_text":"range from september to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"september"}}],"approved":1}
+{"input_text":"range from january to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"january"}}],"approved":1}
+{"input_text":"range from september to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"september"}}],"approved":1}
+{"input_text":"months from march to november only","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"march"}}],"approved":1}
+{"input_text":"months from september to august only","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"september"}}],"approved":1}
+{"input_text":"months from november to june only","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"november"}}],"approved":1}
+{"input_text":"months from july to december only","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"july"}}],"approved":1}
+{"input_text":"months from january to october only","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"january"}}],"approved":1}
+{"input_text":"months from february to october only","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"february"}}],"approved":1}
+{"input_text":"months from november to december only","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"november"}}],"approved":1}
+{"input_text":"filter all months from may to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"may"}}],"approved":1}
+{"input_text":"filter all months from february to december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"february"}}],"approved":1}
+{"input_text":"filter all months from february to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"february"}}],"approved":1}
+{"input_text":"filter all months from november to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"november"}}],"approved":1}
+{"input_text":"filter all months from july to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"july"}}],"approved":1}
+{"input_text":"filter all months from march to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"march"}}],"approved":1}
+{"input_text":"filter all months from february to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"february"}}],"approved":1}
+{"input_text":"show all from march to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"march"}}],"approved":1}
+{"input_text":"show all from may to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"may"}}],"approved":1}
+{"input_text":"show all from november to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"november"}}],"approved":1}
+{"input_text":"show all from january to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"january"}}],"approved":1}
+{"input_text":"show all from february to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"february"}}],"approved":1}
+{"input_text":"show all from september to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"september"}}],"approved":1}
+{"input_text":"show all from november to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"november"}}],"approved":1}
+{"input_text":"february to october filter","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"february"}}],"approved":1}
+{"input_text":"march to april filter","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"march"}}],"approved":1}
+{"input_text":"may to august filter","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"may"}}],"approved":1}
+{"input_text":"november to june filter","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"november"}}],"approved":1}
+{"input_text":"may to june filter","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"may"}}],"approved":1}
+{"input_text":"july to december filter","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"july"}}],"approved":1}
+{"input_text":"february to november filter","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"february"}}],"approved":1}
+{"input_text":"set month range november april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"november"}}],"approved":1}
+{"input_text":"set month range september february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"september"}}],"approved":1}
+{"input_text":"set month range july october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"july"}}],"approved":1}
+{"input_text":"set month range january april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"january"}}],"approved":1}
+{"input_text":"set month range february december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"february"}}],"approved":1}
+{"input_text":"set month range november february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"november"}}],"approved":1}
+{"input_text":"set month range march november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"march"}}],"approved":1}
+{"input_text":"filter by month may to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"may"}}],"approved":1}
+{"input_text":"filter by month november to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"november"}}],"approved":1}
+{"input_text":"filter by month march to february","output_json":[{"name":"filter_months","arguments":{"to":"february","from":"march"}}],"approved":1}
+{"input_text":"filter by month july to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"july"}}],"approved":1}
+{"input_text":"filter by month september to june","output_json":[{"name":"filter_months","arguments":{"to":"june","from":"september"}}],"approved":1}
+{"input_text":"filter by month february to december","output_json":[{"name":"filter_months","arguments":{"to":"december","from":"february"}}],"approved":1}
+{"input_text":"filter by month november to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"november"}}],"approved":1}
+{"input_text":"display only march to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"march"}}],"approved":1}
+{"input_text":"display only january to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"january"}}],"approved":1}
+{"input_text":"display only may to november","output_json":[{"name":"filter_months","arguments":{"to":"november","from":"may"}}],"approved":1}
+{"input_text":"display only july to april","output_json":[{"name":"filter_months","arguments":{"to":"april","from":"july"}}],"approved":1}
+{"input_text":"display only november to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"november"}}],"approved":1}
+{"input_text":"display only november to october","output_json":[{"name":"filter_months","arguments":{"to":"october","from":"november"}}],"approved":1}
+{"input_text":"display only february to august","output_json":[{"name":"filter_months","arguments":{"to":"august","from":"february"}}],"approved":1}
+{"input_text":"toggle x gridlines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle x gridlines true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"toggle y gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle y gridlines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle x gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle y gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle x gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"set y gridlines to yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"set x gridlines to hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"set y gridlines to hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"set y gridlines to false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"set y gridlines to on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"set x gridlines to true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"set x gridlines to off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"make y gridlines false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"make y gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"make x gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"make y gridlines hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"make x gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"make y gridlines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"make x gridlines false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"on x gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"yes y gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"show x gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"false y gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"off y gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"on y gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"false x gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"turn x gridlines true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"turn y gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"turn x gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"turn x gridlines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"turn y gridlines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"turn y gridlines false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"turn x gridlines false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"x gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"y gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"x gridlines false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"y gridlines false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"y gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"y gridlines true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"x gridlines hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"gridlines x hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"gridlines y true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"gridlines y on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"gridlines y hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"gridlines x true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"gridlines x on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"gridlines y off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"change y gridlines to show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"change y gridlines to hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"change x gridlines to off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"change y gridlines to on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"change y gridlines to false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"change x gridlines to on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"change x gridlines to yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle y axis gridlines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle x axis gridlines true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"toggle x axis gridlines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle x axis gridlines hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle y axis gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle x axis gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle x axis gridlines false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"true the y gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"yes the y gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"on the x gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"hide the y gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"show the y gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"show the x gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"off the x gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"set x gridlines hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"set y gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"set y gridlines true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"set y gridlines hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"set x gridlines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"set x gridlines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"set x gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"y lines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"x lines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"y lines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"x lines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"y lines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"x lines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"x lines hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle gridlines for y show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle gridlines for y yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle gridlines for x on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle gridlines for x true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"toggle gridlines for x hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle gridlines for y off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle gridlines for x show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"gridlines on for x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"gridlines true for y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"gridlines false for y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"gridlines off for y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"gridlines false for x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"gridlines on for y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"gridlines off for x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"off gridlines on y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"show gridlines on x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"true gridlines on y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"false gridlines on y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"show gridlines on y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"hide gridlines on y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"off gridlines on x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"yes x axis gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"false y axis gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"hide x axis gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"yes y axis gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"true x axis gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"true y axis gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"hide y axis gridlines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"x grid false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"y grid show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"x grid yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"x grid off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"x grid on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"y grid on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"y grid hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"true y lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"yes y lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"yes x lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"hide x lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"false x lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"on y lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"show y lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"can we make x gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"can we make x gridlines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"can we make y gridlines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"can we make y gridlines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"can we make y gridlines false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"can we make y gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"can we make x gridlines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"switch x gridlines hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"switch x gridlines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"switch x gridlines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"switch y gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"switch y gridlines true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"switch x gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"switch y gridlines hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"false the gridlines on y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"yes the gridlines on x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"true the gridlines on y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"off the gridlines on x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"hide the gridlines on x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"false the gridlines on x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"on the gridlines on y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"y grid yes please","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"x grid off please","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"x grid show please","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"y grid show please","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"x grid hide please","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"x grid true please","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"y grid on please","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"set gridlines y to true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"set gridlines y to yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"set gridlines y to hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"set gridlines x to yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"set gridlines x to show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"set gridlines y to show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"set gridlines x to off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"hide grid for x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"yes grid for y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"off grid for x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"true grid for y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"show grid for y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"on grid for y","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"true grid for x","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"update y gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"update y gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"update y gridlines hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"update x gridlines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"update x gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"update x gridlines false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"update y gridlines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"adjust y gridlines hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"adjust x gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"adjust x gridlines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"adjust x gridlines hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"adjust y gridlines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"adjust x gridlines true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"adjust y gridlines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"gridlines for x on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"gridlines for y show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"gridlines for y hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"gridlines for x hide","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"gridlines for x off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"gridlines for x show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"gridlines for y off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"true x grid lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"on x grid lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"false y grid lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"false x grid lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"show x grid lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"hide x grid lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"yes y grid lines","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle y axis lines false","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle x axis lines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle y axis lines show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle x axis lines true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"toggle y axis lines on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle y axis lines off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle x axis lines yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle gridlines x off","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle gridlines y true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":true}}],"approved":1}
+{"input_text":"toggle gridlines x show","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle gridlines y on","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"toggle gridlines x yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":false}}],"approved":1}
+{"input_text":"toggle gridlines x true","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"x","visible":true}}],"approved":1}
+{"input_text":"toggle gridlines y yes","output_json":[{"name":"toggle_gridlines","arguments":{"axis":"y","visible":false}}],"approved":1}
+{"input_text":"reset chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"clear chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset all","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"restore chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"default chart settings","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"revert chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset visualization","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"clear all filters","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset everything","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"start over","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"clear current chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset view","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"default view","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"chart reset","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset to default","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset chart to default","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"revert to original","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset my chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"undo all changes","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"clear the chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"restore default chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset settings","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"clear filters and zoom","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"go back to default chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset current view","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset display","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"default display","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"reset this chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"clear current view","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"factory reset chart","output_json":[{"name":"reset_chart","arguments":{}}],"approved":1}
+{"input_text":"set chart type to doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"set chart type to bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"set chart type to pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"set chart type to radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"set chart type to line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"change chart type to doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"change chart type to pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"change chart type to bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"change chart type to radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"change chart type to line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"make chart a radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"make chart a doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"make chart a bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"make chart a line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"make chart a pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"show as radar chart","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"show as line chart","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"show as bar chart","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"show as doughnut chart","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"show as pie chart","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"render as bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"render as radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"render as line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"render as doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"render as pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"display radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"display bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"display line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"display doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"display pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"set type doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"set type line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"set type bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"set type radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"set type pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"chart type bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"chart type radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"chart type line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"chart type doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"chart type pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"make it a doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"make it a radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"make it a bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"make it a pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"make it a line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"switch to radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"switch to doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"switch to bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"switch to line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"switch to pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"use line chart","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"use radar chart","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"use doughnut chart","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"use pie chart","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"use bar chart","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"draw as doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"draw as pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"draw as bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"draw as line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"draw as radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"change to radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"change to pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"change to doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"change to bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"change to line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"doughnut chart","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"pie chart","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"bar chart","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"line chart","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"chart pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"chart radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"chart line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"chart doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"chart bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"set to doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"set to radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"set to bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"set to pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"set to line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"graph as doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"graph as bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"graph as line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"graph as pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"graph as radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"transform to pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"transform to bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"transform to line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"transform to doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"transform to radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"visualize as radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"visualize as pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"visualize as line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"visualize as doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"visualize as bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"set chart as radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"set chart as doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"set chart as line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"set chart as bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"set chart as pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"display as line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"display as bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"display as doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"display as radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"display as pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"make the chart pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"make the chart radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"make the chart doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"make the chart line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"make the chart bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"show chart as pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"show chart as radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"show chart as doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"show chart as bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"show chart as line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"change chart to radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"change chart to bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"change chart to pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"change chart to line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"change chart to doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"render chart as pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"render chart as doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"render chart as bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"render chart as line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"render chart as radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"set chart type bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"set chart type line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"set chart type pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"set chart type doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"set chart type radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"view as bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"view as line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"view as radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"view as pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"view as doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"present as bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"present as pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"present as doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"present as line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"present as radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"format as doughnut","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"format as line","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"format as radar","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"format as bar","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"format as pie","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"choose line chart","output_json":[{"name":"set_chart_type","arguments":{"type":"line"}}],"approved":1}
+{"input_text":"choose radar chart","output_json":[{"name":"set_chart_type","arguments":{"type":"radar"}}],"approved":1}
+{"input_text":"choose bar chart","output_json":[{"name":"set_chart_type","arguments":{"type":"bar"}}],"approved":1}
+{"input_text":"choose doughnut chart","output_json":[{"name":"set_chart_type","arguments":{"type":"doughnut"}}],"approved":1}
+{"input_text":"choose pie chart","output_json":[{"name":"set_chart_type","arguments":{"type":"pie"}}],"approved":1}
+{"input_text":"set title to customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"set title to quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"set title to monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"set title to sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"set title to product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"set title to website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"set title to employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"change title to website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"change title to quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"change title to product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"change title to sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"change title to monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"change title to customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"change title to employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"update title to monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"update title to product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"update title to sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"update title to website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"update title to quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"update title to employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"update title to customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"set chart title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"set chart title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"set chart title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"set chart title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"set chart title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"set chart title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"set chart title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"make title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"make title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"make title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"make title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"make title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"make title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"make title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"rename title to sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"rename title to customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"rename title to monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"rename title to quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"rename title to employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"rename title to website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"rename title to product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"add title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"add title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"add title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"add title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"add title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"add title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"add title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"edit title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"edit title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"edit title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"edit title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"edit title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"edit title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"edit title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"assign title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"assign title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"assign title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"assign title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"assign title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"assign title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"assign title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"label chart as sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"label chart as product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"label chart as quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"label chart as customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"label chart as monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"label chart as website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"label chart as employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"use title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"use title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"use title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"use title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"use title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"use title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"use title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"chart title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"chart title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"chart title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"chart title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"chart title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"chart title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"chart title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"set employee satisfaction as title","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"set sales by region as title","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"set monthly expenses as title","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"set product usage as title","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"set website traffic as title","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"set quarterly revenue as title","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"name chart monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"name chart quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"name chart customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"name chart product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"name chart website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"name chart employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"name chart sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"title the chart website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"title the chart customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"title the chart monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"title the chart product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"title the chart quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"title the chart sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"title the chart employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"give it title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"give it title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"give it title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"give it title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"give it title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"give it title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"give it title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"set the title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"set the title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"set the title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"set the title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"set the title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"set the title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"set the title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"update the chart title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"update the chart title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"update the chart title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"update the chart title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"update the chart title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"update the chart title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"update the chart title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"change the chart title to website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"change the chart title to employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"change the chart title to customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"change the chart title to monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"change the chart title to product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"change the chart title to quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"change the chart title to sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"make the title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"make the title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"make the title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"make the title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"make the title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"make the title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"make the title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"title this sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"title this monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"title this quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"title this customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"title this product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"title this website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"title this employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"set current title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"set current title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"set current title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"set current title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"set current title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"set current title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"new title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"new title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"new title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"new title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"new title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"new title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"new title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"title of chart quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"title of chart website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"title of chart customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"title of chart employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"title of chart sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"title of chart monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"title of chart product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"set heading to customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"set heading to product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"set heading to quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"set heading to sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"set heading to website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"set heading to monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"set heading to employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"heading product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"heading customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"heading employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"heading monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"heading sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"heading website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"heading quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"label as employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"label as quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"label as product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"label as customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"label as website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"label as monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"set main title sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"set main title website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"set main title monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"set main title quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"set main title employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"set main title customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"set main title product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"chart heading website traffic","output_json":[{"name":"set_title","arguments":{"text":"website traffic"}}],"approved":1}
+{"input_text":"chart heading customer feedback","output_json":[{"name":"set_title","arguments":{"text":"customer feedback"}}],"approved":1}
+{"input_text":"chart heading quarterly revenue","output_json":[{"name":"set_title","arguments":{"text":"quarterly revenue"}}],"approved":1}
+{"input_text":"chart heading product usage","output_json":[{"name":"set_title","arguments":{"text":"product usage"}}],"approved":1}
+{"input_text":"chart heading monthly expenses","output_json":[{"name":"set_title","arguments":{"text":"monthly expenses"}}],"approved":1}
+{"input_text":"chart heading employee satisfaction","output_json":[{"name":"set_title","arguments":{"text":"employee satisfaction"}}],"approved":1}
+{"input_text":"chart heading sales by region","output_json":[{"name":"set_title","arguments":{"text":"sales by region"}}],"approved":1}
+{"input_text":"set y axis scale to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"set x axis scale to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"set x axis scale to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"set y axis scale to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"change y axis to logarithmic scale","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"change y axis to linear scale","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"change x axis to logarithmic scale","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"change x axis to linear scale","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"make y axis logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"make y axis linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"make x axis linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"make x axis logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y axis logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"x axis logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y axis linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"x axis linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"set y scale linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"set x scale linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"set x scale logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"set y scale logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"x scale to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"x scale to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y scale to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y scale to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"use linear for y axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"use logarithmic for x axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"use logarithmic for y axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"use linear for x axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"x axis scale linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"x axis scale logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y axis scale logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y axis scale linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"change x to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"change y to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"change y to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"change x to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"set scale linear for y","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"set scale linear for x","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"set scale logarithmic for y","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"set scale logarithmic for x","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"linear scale for y axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"logarithmic scale for y axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"logarithmic scale for x axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"linear scale for x axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"make x linear scale","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"make y linear scale","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"make y logarithmic scale","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"make x logarithmic scale","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"set x axis type linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"set x axis type logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"set y axis type linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"set y axis type logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y axis should be linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"x axis should be linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"y axis should be logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"x axis should be logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"apply logarithmic to x axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"apply linear to x axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"apply logarithmic to y axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"apply linear to y axis","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"change x axis scaling to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"change y axis scaling to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"change x axis scaling to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"change y axis scaling to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"y axis scale type logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"x axis scale type linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"x axis scale type logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y axis scale type linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"set y to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"set x to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"set x to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"set y to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"scale y to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"scale y to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"scale x to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"scale x to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"x axis display linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"x axis display logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y axis display logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y axis display linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"x axis in linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"x axis in logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y axis in linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"y axis in logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"set the y axis linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"set the x axis logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"set the x axis linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"set the y axis logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"make the y axis linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"make the x axis linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"make the x axis logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"make the y axis logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"change the y axis to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"change the x axis to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"change the x axis to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"change the y axis to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"set y axis as linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"set x axis as logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"set x axis as linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"set y axis as logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"display x axis as logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"display y axis as logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"display y axis as linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"display x axis as linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"y scale linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"y scale logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"x scale linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"x scale logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y set logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"x set logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"y set linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"x set linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"update y axis to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"update x axis to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"update y axis to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"update x axis to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"transform y axis to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"linear"}}],"approved":1}
+{"input_text":"transform y axis to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"y","scale":"logarithmic"}}],"approved":1}
+{"input_text":"transform x axis to logarithmic","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"logarithmic"}}],"approved":1}
+{"input_text":"transform x axis to linear","output_json":[{"name":"set_axis_scale","arguments":{"axis":"x","scale":"linear"}}],"approved":1}
+{"input_text":"set y axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"set x axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"reset x axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"reset y axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"adjust x axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"adjust y axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"clear x axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"clear y axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"update y axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"update x axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"modify x axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"modify y axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"change y axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"change x axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"edit y axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"edit x axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"y axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"x axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"set range for x axis","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"set range for y axis","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"x range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"y range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"reset range x","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"reset range y","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"update range x","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"update range y","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"alter x axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"alter y axis range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"adjust the y range","output_json":[{"name":"set_axis_range","arguments":{"axis":"y"}}],"approved":1}
+{"input_text":"adjust the x range","output_json":[{"name":"set_axis_range","arguments":{"axis":"x"}}],"approved":1}
+{"input_text":"set y axis min to 2020-01-01","output_json":[{"name":"set_axis_range","arguments":{"min":"2020-01-01","axis":"y"}}],"approved":1}
+{"input_text":"set x axis min to 0","output_json":[{"name":"set_axis_range","arguments":{"min":0,"axis":"x"}}],"approved":1}
+{"input_text":"set x axis min to 1k","output_json":[{"name":"set_axis_range","arguments":{"min":"1k","axis":"x"}}],"approved":1}
+{"input_text":"set x axis min to 2020-01-01","output_json":[{"name":"set_axis_range","arguments":{"min":"2020-01-01","axis":"x"}}],"approved":1}
+{"input_text":"set x axis min to 100","output_json":[{"name":"set_axis_range","arguments":{"min":100,"axis":"x"}}],"approved":1}
+{"input_text":"set y axis min to 0","output_json":[{"name":"set_axis_range","arguments":{"min":0,"axis":"y"}}],"approved":1}
+{"input_text":"set x axis min to 0.5","output_json":[{"name":"set_axis_range","arguments":{"min":0.5,"axis":"x"}}],"approved":1}
+{"input_text":"set x axis max to 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"axis":"x"}}],"approved":1}
+{"input_text":"set x axis max to 10000","output_json":[{"name":"set_axis_range","arguments":{"max":10000,"axis":"x"}}],"approved":1}
+{"input_text":"set x axis max to 1m","output_json":[{"name":"set_axis_range","arguments":{"max":"1m","axis":"x"}}],"approved":1}
+{"input_text":"set x axis max to 1.0","output_json":[{"name":"set_axis_range","arguments":{"max":1,"axis":"x"}}],"approved":1}
+{"input_text":"set y axis max to 0","output_json":[{"name":"set_axis_range","arguments":{"max":0,"axis":"y"}}],"approved":1}
+{"input_text":"set y axis max to 2022-12-31","output_json":[{"name":"set_axis_range","arguments":{"max":"2022-12-31","axis":"y"}}],"approved":1}
+{"input_text":"set y axis max to 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"axis":"y"}}],"approved":1}
+{"input_text":"y axis min -50","output_json":[{"name":"set_axis_range","arguments":{"min":-50,"axis":"y"}}],"approved":1}
+{"input_text":"x axis min 10","output_json":[{"name":"set_axis_range","arguments":{"min":10,"axis":"x"}}],"approved":1}
+{"input_text":"y axis min 100","output_json":[{"name":"set_axis_range","arguments":{"min":100,"axis":"y"}}],"approved":1}
+{"input_text":"y axis min 10","output_json":[{"name":"set_axis_range","arguments":{"min":10,"axis":"y"}}],"approved":1}
+{"input_text":"x axis min 100","output_json":[{"name":"set_axis_range","arguments":{"min":100,"axis":"x"}}],"approved":1}
+{"input_text":"x axis min 0","output_json":[{"name":"set_axis_range","arguments":{"min":0,"axis":"x"}}],"approved":1}
+{"input_text":"y axis min 1k","output_json":[{"name":"set_axis_range","arguments":{"min":"1k","axis":"y"}}],"approved":1}
+{"input_text":"x axis max 10000","output_json":[{"name":"set_axis_range","arguments":{"max":10000,"axis":"x"}}],"approved":1}
+{"input_text":"y axis max 2022-12-31","output_json":[{"name":"set_axis_range","arguments":{"max":"2022-12-31","axis":"y"}}],"approved":1}
+{"input_text":"y axis max 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"axis":"y"}}],"approved":1}
+{"input_text":"y axis max 10000","output_json":[{"name":"set_axis_range","arguments":{"max":10000,"axis":"y"}}],"approved":1}
+{"input_text":"x axis max 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"axis":"x"}}],"approved":1}
+{"input_text":"x axis max 1m","output_json":[{"name":"set_axis_range","arguments":{"max":"1m","axis":"x"}}],"approved":1}
+{"input_text":"x axis max 500","output_json":[{"name":"set_axis_range","arguments":{"max":500,"axis":"x"}}],"approved":1}
+{"input_text":"minimum for y is 10","output_json":[{"name":"set_axis_range","arguments":{"min":10,"axis":"y"}}],"approved":1}
+{"input_text":"minimum for y is 1k","output_json":[{"name":"set_axis_range","arguments":{"min":"1k","axis":"y"}}],"approved":1}
+{"input_text":"minimum for y is 100","output_json":[{"name":"set_axis_range","arguments":{"min":100,"axis":"y"}}],"approved":1}
+{"input_text":"minimum for y is 0","output_json":[{"name":"set_axis_range","arguments":{"min":0,"axis":"y"}}],"approved":1}
+{"input_text":"minimum for y is -50","output_json":[{"name":"set_axis_range","arguments":{"min":-50,"axis":"y"}}],"approved":1}
+{"input_text":"minimum for x is -50","output_json":[{"name":"set_axis_range","arguments":{"min":-50,"axis":"x"}}],"approved":1}
+{"input_text":"minimum for x is 0","output_json":[{"name":"set_axis_range","arguments":{"min":0,"axis":"x"}}],"approved":1}
+{"input_text":"maximum for y is 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"axis":"y"}}],"approved":1}
+{"input_text":"maximum for x is 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"axis":"x"}}],"approved":1}
+{"input_text":"maximum for y is 500","output_json":[{"name":"set_axis_range","arguments":{"max":500,"axis":"y"}}],"approved":1}
+{"input_text":"maximum for x is 0","output_json":[{"name":"set_axis_range","arguments":{"max":0,"axis":"x"}}],"approved":1}
+{"input_text":"maximum for y is 1.0","output_json":[{"name":"set_axis_range","arguments":{"max":1,"axis":"y"}}],"approved":1}
+{"input_text":"maximum for x is 1m","output_json":[{"name":"set_axis_range","arguments":{"max":"1m","axis":"x"}}],"approved":1}
+{"input_text":"maximum for x is 500","output_json":[{"name":"set_axis_range","arguments":{"max":500,"axis":"x"}}],"approved":1}
+{"input_text":"x axis start at 2020-01-01","output_json":[{"name":"set_axis_range","arguments":{"min":"2020-01-01","axis":"x"}}],"approved":1}
+{"input_text":"y axis start at 100","output_json":[{"name":"set_axis_range","arguments":{"min":100,"axis":"y"}}],"approved":1}
+{"input_text":"x axis start at 10","output_json":[{"name":"set_axis_range","arguments":{"min":10,"axis":"x"}}],"approved":1}
+{"input_text":"x axis start at 1k","output_json":[{"name":"set_axis_range","arguments":{"min":"1k","axis":"x"}}],"approved":1}
+{"input_text":"y axis start at -50","output_json":[{"name":"set_axis_range","arguments":{"min":-50,"axis":"y"}}],"approved":1}
+{"input_text":"x axis start at 0.5","output_json":[{"name":"set_axis_range","arguments":{"min":0.5,"axis":"x"}}],"approved":1}
+{"input_text":"y axis start at 10","output_json":[{"name":"set_axis_range","arguments":{"min":10,"axis":"y"}}],"approved":1}
+{"input_text":"y axis end at 500","output_json":[{"name":"set_axis_range","arguments":{"max":500,"axis":"y"}}],"approved":1}
+{"input_text":"y axis end at 10000","output_json":[{"name":"set_axis_range","arguments":{"max":10000,"axis":"y"}}],"approved":1}
+{"input_text":"x axis end at 2022-12-31","output_json":[{"name":"set_axis_range","arguments":{"max":"2022-12-31","axis":"x"}}],"approved":1}
+{"input_text":"x axis end at 1m","output_json":[{"name":"set_axis_range","arguments":{"max":"1m","axis":"x"}}],"approved":1}
+{"input_text":"y axis end at 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"axis":"y"}}],"approved":1}
+{"input_text":"x axis end at 0","output_json":[{"name":"set_axis_range","arguments":{"max":0,"axis":"x"}}],"approved":1}
+{"input_text":"x axis end at 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"axis":"x"}}],"approved":1}
+{"input_text":"set y axis lower bound 10","output_json":[{"name":"set_axis_range","arguments":{"min":10,"axis":"y"}}],"approved":1}
+{"input_text":"set y axis lower bound 0","output_json":[{"name":"set_axis_range","arguments":{"min":0,"axis":"y"}}],"approved":1}
+{"input_text":"set x axis lower bound 10","output_json":[{"name":"set_axis_range","arguments":{"min":10,"axis":"x"}}],"approved":1}
+{"input_text":"set x axis lower bound 0.5","output_json":[{"name":"set_axis_range","arguments":{"min":0.5,"axis":"x"}}],"approved":1}
+{"input_text":"set x axis lower bound 1k","output_json":[{"name":"set_axis_range","arguments":{"min":"1k","axis":"x"}}],"approved":1}
+{"input_text":"set x axis lower bound 2020-01-01","output_json":[{"name":"set_axis_range","arguments":{"min":"2020-01-01","axis":"x"}}],"approved":1}
+{"input_text":"set x axis lower bound 100","output_json":[{"name":"set_axis_range","arguments":{"min":100,"axis":"x"}}],"approved":1}
+{"input_text":"set y axis upper bound 1.0","output_json":[{"name":"set_axis_range","arguments":{"max":1,"axis":"y"}}],"approved":1}
+{"input_text":"set x axis upper bound 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"axis":"x"}}],"approved":1}
+{"input_text":"set y axis upper bound 0","output_json":[{"name":"set_axis_range","arguments":{"max":0,"axis":"y"}}],"approved":1}
+{"input_text":"set y axis upper bound 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"axis":"y"}}],"approved":1}
+{"input_text":"set x axis upper bound 1m","output_json":[{"name":"set_axis_range","arguments":{"max":"1m","axis":"x"}}],"approved":1}
+{"input_text":"set x axis upper bound 10000","output_json":[{"name":"set_axis_range","arguments":{"max":10000,"axis":"x"}}],"approved":1}
+{"input_text":"set y axis upper bound 500","output_json":[{"name":"set_axis_range","arguments":{"max":500,"axis":"y"}}],"approved":1}
+{"input_text":"y axis range from 10 to 500","output_json":[{"name":"set_axis_range","arguments":{"max":500,"min":10,"axis":"y"}}],"approved":1}
+{"input_text":"y axis range from 1k to 1.0","output_json":[{"name":"set_axis_range","arguments":{"max":1,"min":"1k","axis":"y"}}],"approved":1}
+{"input_text":"x axis range from 1k to 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"min":"1k","axis":"x"}}],"approved":1}
+{"input_text":"y axis range from 2020-01-01 to 0","output_json":[{"name":"set_axis_range","arguments":{"max":0,"min":"2020-01-01","axis":"y"}}],"approved":1}
+{"input_text":"x axis range from 1k to 10000","output_json":[{"name":"set_axis_range","arguments":{"max":10000,"min":"1k","axis":"x"}}],"approved":1}
+{"input_text":"y axis range from 100 to 1m","output_json":[{"name":"set_axis_range","arguments":{"max":"1m","min":100,"axis":"y"}}],"approved":1}
+{"input_text":"x axis range from 2020-01-01 to 1.0","output_json":[{"name":"set_axis_range","arguments":{"max":1,"min":"2020-01-01","axis":"x"}}],"approved":1}
+{"input_text":"x axis range 0.5 500","output_json":[{"name":"set_axis_range","arguments":{"max":500,"min":0.5,"axis":"x"}}],"approved":1}
+{"input_text":"y axis range 0.5 500","output_json":[{"name":"set_axis_range","arguments":{"max":500,"min":0.5,"axis":"y"}}],"approved":1}
+{"input_text":"x axis range 0 2022-12-31","output_json":[{"name":"set_axis_range","arguments":{"max":"2022-12-31","min":0,"axis":"x"}}],"approved":1}
+{"input_text":"x axis range 2020-01-01 0","output_json":[{"name":"set_axis_range","arguments":{"max":0,"min":"2020-01-01","axis":"x"}}],"approved":1}
+{"input_text":"y axis range -50 0","output_json":[{"name":"set_axis_range","arguments":{"max":0,"min":-50,"axis":"y"}}],"approved":1}
+{"input_text":"y axis range 10 1.0","output_json":[{"name":"set_axis_range","arguments":{"max":1,"min":10,"axis":"y"}}],"approved":1}
+{"input_text":"x axis range 0.5 1.0","output_json":[{"name":"set_axis_range","arguments":{"max":1,"min":0.5,"axis":"x"}}],"approved":1}
+{"input_text":"y axis from -50 to 2022-12-31","output_json":[{"name":"set_axis_range","arguments":{"max":"2022-12-31","min":-50,"axis":"y"}}],"approved":1}
+{"input_text":"x axis from 0 to 500","output_json":[{"name":"set_axis_range","arguments":{"max":500,"min":0,"axis":"x"}}],"approved":1}
+{"input_text":"y axis from 0 to 0","output_json":[{"name":"set_axis_range","arguments":{"max":0,"min":0,"axis":"y"}}],"approved":1}
+{"input_text":"y axis from 2020-01-01 to 1m","output_json":[{"name":"set_axis_range","arguments":{"max":"1m","min":"2020-01-01","axis":"y"}}],"approved":1}
+{"input_text":"x axis from -50 to 10000","output_json":[{"name":"set_axis_range","arguments":{"max":10000,"min":-50,"axis":"x"}}],"approved":1}
+{"input_text":"x axis from 1k to 1m","output_json":[{"name":"set_axis_range","arguments":{"max":"1m","min":"1k","axis":"x"}}],"approved":1}
+{"input_text":"y axis from 10 to 0","output_json":[{"name":"set_axis_range","arguments":{"max":0,"min":10,"axis":"y"}}],"approved":1}
+{"input_text":"x axis between 0 and 1.0","output_json":[{"name":"set_axis_range","arguments":{"max":1,"min":0,"axis":"x"}}],"approved":1}
+{"input_text":"x axis between 0.5 and 500","output_json":[{"name":"set_axis_range","arguments":{"max":500,"min":0.5,"axis":"x"}}],"approved":1}
+{"input_text":"x axis between 0 and 2022-12-31","output_json":[{"name":"set_axis_range","arguments":{"max":"2022-12-31","min":0,"axis":"x"}}],"approved":1}
+{"input_text":"x axis between 1k and 1.0","output_json":[{"name":"set_axis_range","arguments":{"max":1,"min":"1k","axis":"x"}}],"approved":1}
+{"input_text":"x axis between -50 and 2022-12-31","output_json":[{"name":"set_axis_range","arguments":{"max":"2022-12-31","min":-50,"axis":"x"}}],"approved":1}
+{"input_text":"y axis between 2020-01-01 and 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"min":"2020-01-01","axis":"y"}}],"approved":1}
+{"input_text":"x axis between -50 and 1m","output_json":[{"name":"set_axis_range","arguments":{"max":"1m","min":-50,"axis":"x"}}],"approved":1}
+{"input_text":"set y axis min 0 max 2022-12-31","output_json":[{"name":"set_axis_range","arguments":{"max":"2022-12-31","min":0,"axis":"y"}}],"approved":1}
+{"input_text":"set x axis min -50 max 0","output_json":[{"name":"set_axis_range","arguments":{"max":0,"min":-50,"axis":"x"}}],"approved":1}
+{"input_text":"set y axis min -50 max 1m","output_json":[{"name":"set_axis_range","arguments":{"max":"1m","min":-50,"axis":"y"}}],"approved":1}
+{"input_text":"set x axis min 10 max 2022-12-31","output_json":[{"name":"set_axis_range","arguments":{"max":"2022-12-31","min":10,"axis":"x"}}],"approved":1}
+{"input_text":"set y axis min 2020-01-01 max 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"min":"2020-01-01","axis":"y"}}],"approved":1}
+{"input_text":"set y axis min 100 max 500","output_json":[{"name":"set_axis_range","arguments":{"max":500,"min":100,"axis":"y"}}],"approved":1}
+{"input_text":"set x axis min 0.5 max 100","output_json":[{"name":"set_axis_range","arguments":{"max":100,"min":0.5,"axis":"x"}}],"approved":1}
+{"input_text":"set legend position right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"set legend position top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"set legend position bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"set legend position left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"set legend position hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"move legend to hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"move legend to top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"move legend to left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"move legend to right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"move legend to bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"legend left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"legend top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"legend hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"legend right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"position legend left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"position legend hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"position legend bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"position legend top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"position legend right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"set legend hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"set legend left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"set legend bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"set legend top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"set legend right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"legend position bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"legend position left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend position hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"legend position top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"legend position right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"put legend top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"put legend left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"put legend bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"put legend hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"put legend right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"make legend top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"make legend left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"make legend hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"make legend right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"make legend bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"move the legend left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"move the legend right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"move the legend top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"move the legend hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"move the legend bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"legend should be left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend should be bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"legend should be hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"legend should be top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"legend should be right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"change legend position to right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"change legend position to top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"change legend position to bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"change legend position to hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"change legend position to left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"place legend at left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"place legend at bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"place legend at hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"place legend at top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"place legend at right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"bottom legend","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"right legend","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"top legend","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"hidden legend","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"left legend","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend to top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"legend to right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"legend to left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend to hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"legend to bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"update legend position left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"update legend position bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"update legend position hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"update legend position top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"update legend position right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"set the legend to top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"set the legend to right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"set the legend to left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"set the legend to hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"legend at hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"legend at right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"legend at bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"legend at left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend at top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"left the legend","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"hidden the legend","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"right the legend","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"top the legend","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"bottom the legend","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"reposition legend left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"reposition legend right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"reposition legend top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"reposition legend bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"reposition legend hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"make the legend hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"make the legend left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"make the legend right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"make the legend bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"make the legend top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"change the legend to bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"change the legend to right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"change the legend to hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"change the legend to top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"legend in right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"legend in top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"legend in bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"legend in hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"legend in left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend move top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"legend move hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"legend move left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend move bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"legend move right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"legend location right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"legend location top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"legend location left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend location bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"legend location hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"position the legend top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"position the legend left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"position the legend right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"position the legend hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"position the legend bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"legend display top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"legend display hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"legend display left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend display bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"legend display right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"set legend as bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"set legend as hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"set legend as top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"set legend as left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"set legend as right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"legend to be right","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"legend to be hidden","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"legend to be left","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"legend to be top","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"legend to be bottom","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"bottom for legend","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"hidden for legend","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"left for legend","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"right for legend","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"top for legend","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"move legend hidden position","output_json":[{"name":"set_legend_position","arguments":{"position":"hidden"}}],"approved":1}
+{"input_text":"move legend right position","output_json":[{"name":"set_legend_position","arguments":{"position":"right"}}],"approved":1}
+{"input_text":"move legend bottom position","output_json":[{"name":"set_legend_position","arguments":{"position":"bottom"}}],"approved":1}
+{"input_text":"move legend left position","output_json":[{"name":"set_legend_position","arguments":{"position":"left"}}],"approved":1}
+{"input_text":"move legend top position","output_json":[{"name":"set_legend_position","arguments":{"position":"top"}}],"approved":1}
+{"input_text":"What else can I do with this chart?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Can you explain what a stacked bar chart is?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"How do I save this chart's current view?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Can I add a new data series to the chart?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Is it possible to export this chart as a PNG image?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"What are all the available chart types?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Can I change the font size of the axis labels?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Why did sales drop so sharply last quarter?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Can I undo the last change I made to the chart?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Can you tell me more about the data source?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"How can I share this chart with my team members?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Can I add a custom watermark to the chart background?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"What's the best chart type to show trends over time?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Can I combine two different charts into a single dashboard?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Can I set up an alert if a data point exceeds a certain value?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Can you summarize the key insights from this data for me?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Is there a way to print this chart directly?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"Can I change the overall color theme of the chart?","output_json":[{"name":"__fallback__","arguments":{}}],"approved":1}
+{"input_text":"What's the weather like in New York today?","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}
+{"input_text":"Tell me a funny joke about a programmer.","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}
+{"input_text":"How do I install Python on my computer?","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}
+{"input_text":"Who was the first person to walk on the moon?","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}
+{"input_text":"Can you recommend a good restaurant near me?","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}
+{"input_text":"Play some jazz music.","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}
+{"input_text":"Set a timer for 10 minutes.","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}
+{"input_text":"What is the square root of 144?","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}
+{"input_text":"What's the latest news headlines?","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}
+{"input_text":"Translate 'hello world' into Spanish.","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}
+{"input_text":"How far is the moon from Earth?","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}
+{"input_text":"Can you write an email for me?","output_json":[{"name":"__out_of_scope__","arguments":{}}],"approved":1}

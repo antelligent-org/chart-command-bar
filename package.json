@@ -1,0 +1,11 @@
+{
+  "name": "chart-command-bar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Chart.js dashboard you drive with a sentence, wired to a Fernfly model",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs",
+    "vendor": "node scripts/vendor.mjs"
+  }
+}

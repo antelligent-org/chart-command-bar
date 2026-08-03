@@ -1,0 +1,261 @@
+[
+  {
+    "name": "set_chart_type",
+    "description": "Change how the chart is drawn. Use for 'show this as bars', 'make it a line chart', 'pie chart please', 'switch to a radar plot'.",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "bar",
+            "line",
+            "pie",
+            "doughnut",
+            "radar"
+          ],
+          "description": "The chart style to render. Pie and doughnut collapse each product line to its total."
+        }
+      }
+    }
+  },
+  {
+    "name": "set_title",
+    "description": "Set the chart's title text. Use for 'call it Q4 revenue', 'title this Revenue by product line', 'change the heading to something shorter'.",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "text"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "The new title. Long titles are truncated."
+        }
+      }
+    }
+  },
+  {
+    "name": "set_axis_scale",
+    "description": "Switch an axis between a linear and a logarithmic scale. Use for 'use a log scale', 'the small numbers are invisible', 'put the vertical axis on a log scale', 'back to linear'.",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "axis",
+        "scale"
+      ],
+      "properties": {
+        "axis": {
+          "type": "string",
+          "enum": [
+            "x",
+            "y"
+          ],
+          "description": "Which axis to change. On bar, line and radar charts only y carries values."
+        },
+        "scale": {
+          "type": "string",
+          "enum": [
+            "linear",
+            "logarithmic"
+          ],
+          "description": "The scale to use."
+        }
+      }
+    }
+  },
+  {
+    "name": "set_axis_range",
+    "description": "Pin an axis to a fixed minimum and maximum. Use for 'start the y axis at zero', 'cap the vertical axis at 100000', 'zoom in between 0 and 50k'.",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "axis"
+      ],
+      "properties": {
+        "axis": {
+          "type": "string",
+          "enum": [
+            "x",
+            "y"
+          ],
+          "description": "Which axis to pin."
+        },
+        "min": {
+          "type": "number",
+          "description": "Lowest value to show. Omit to let the chart choose."
+        },
+        "max": {
+          "type": "number",
+          "description": "Highest value to show. Omit to let the chart choose."
+        }
+      }
+    }
+  },
+  {
+    "name": "set_series_colour",
+    "description": "Recolour one product line. Use for 'make enterprise green', 'colour teams purple', 'self-serve should be red'.",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "series",
+        "colour"
+      ],
+      "properties": {
+        "series": {
+          "type": "string",
+          "description": "The product line to recolour. Matched loosely against the series names."
+        },
+        "colour": {
+          "type": "string",
+          "enum": [
+            "gold",
+            "emerald",
+            "violet",
+            "red",
+            "slate"
+          ],
+          "description": "The colour to use."
+        }
+      }
+    }
+  },
+  {
+    "name": "toggle_series",
+    "description": "Show or hide one product line. Use for 'hide enterprise', 'just show me teams', 'bring self-serve back'.",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "series",
+        "visible"
+      ],
+      "properties": {
+        "series": {
+          "type": "string",
+          "description": "The product line to show or hide. Matched loosely against the series names."
+        },
+        "visible": {
+          "type": "boolean",
+          "description": "True to show the series, false to hide it."
+        }
+      }
+    }
+  },
+  {
+    "name": "set_legend_position",
+    "description": "Move the legend, or take it off the chart entirely. Use for 'put the legend on the right', 'drop the legend, it's in the way', 'legend at the bottom'.",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "position"
+      ],
+      "properties": {
+        "position": {
+          "type": "string",
+          "enum": [
+            "top",
+            "bottom",
+            "left",
+            "right",
+            "hidden"
+          ],
+          "description": "Where to put the legend, or hidden to remove it."
+        }
+      }
+    }
+  },
+  {
+    "name": "set_stacked",
+    "description": "Stack the product lines on top of each other instead of drawing them side by side. Use for 'stack them', 'show me the combined total', 'unstack these'.",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "True to stack the series, false to draw them side by side."
+        }
+      }
+    }
+  },
+  {
+    "name": "sort_data",
+    "description": "Reorder the months by total value instead of by calendar order. Use for 'biggest first', 'sort ascending', 'put them back in date order'.",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "order"
+      ],
+      "properties": {
+        "order": {
+          "type": "string",
+          "enum": [
+            "asc",
+            "desc",
+            "original"
+          ],
+          "description": "Ascending, descending, or back to calendar order."
+        }
+      }
+    }
+  },
+  {
+    "name": "filter_months",
+    "description": "Limit the chart to a range of months, numbered 1 for January through 12 for December. Use for 'just the last quarter', 'show me the first half', 'only March to June'.",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "from",
+        "to"
+      ],
+      "properties": {
+        "from": {
+          "type": "integer",
+          "description": "First month to show, 1 for January through 12 for December."
+        },
+        "to": {
+          "type": "integer",
+          "description": "Last month to show, 1 for January through 12 for December."
+        }
+      }
+    }
+  },
+  {
+    "name": "toggle_gridlines",
+    "description": "Show or hide the gridlines on one axis. Use for 'hide the gridlines', 'turn the horizontal lines back on', 'lose the grid'.",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "axis",
+        "visible"
+      ],
+      "properties": {
+        "axis": {
+          "type": "string",
+          "enum": [
+            "x",
+            "y"
+          ],
+          "description": "Which axis's gridlines to change."
+        },
+        "visible": {
+          "type": "boolean",
+          "description": "True to show the gridlines, false to hide them."
+        }
+      }
+    }
+  },
+  {
+    "name": "reset_chart",
+    "description": "Put every setting back to its default and show all twelve months again. Use for 'start over', 'reset', 'undo everything', 'back to normal'.",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
